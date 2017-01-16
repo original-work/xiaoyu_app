@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/conversation_video_status_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="129dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_toolbar_state_recording"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+        <ImageView
+                android:id="@+id/video_status_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_video_status_prompt"/>
+
+        <TextView
+                android:id="@+id/video_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="8.83"
+                android:paddingTop="1dp"
+                android:text="本地网络较差"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ainemo_white"
+                android:textSize="14sp"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/conversation_videostatus_bar.xml -->

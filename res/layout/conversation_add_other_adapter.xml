@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_layout_clickable">
+
+    <TextView
+            android:id="@+id/select_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:text="Name"
+            android:textColor="@color/nemo_black_70"
+            android:layout_marginBottom="5dp"
+            android:textSize="16sp"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:background="@color/nemo_black_15"
+            android:layout_marginTop="15dp"/>
+
+    <ExpandGridView
+            android:id="@+id/gridview"
+            android:background="@color/ainemo_white"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@android:color/white"
+            android:numColumns="3"/>
+
+</RelativeLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/conversation_add_other_adapter.xml -->

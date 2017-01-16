@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/nemo_black_40">
+
+    <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="#66FFFFFF"
+            android:layout_height="65dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="abc"
+                android:id="@+id/disconnting_mt_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FF6764"
+                android:textSize="18sp"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/disconnecting_fragment.xml -->

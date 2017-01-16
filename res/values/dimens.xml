@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="local_cell_pandding">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="ainemo_activity_horizontal_margin">15dp</dimen>
+    <dimen name="ainemo_activity_vertical_margin">15dp</dimen>
+
+    <item name="group_padding" format="dimension|reference" type="dimen">20dp</item>
+    <item name="navigation_max_width" format="dimension|reference" type="dimen">200dp</item>
+    <item name="standard_padding" format="dimension|reference" type="dimen">10dp</item>
+
+    <dimen name="activity_video_margin">5dp</dimen>
+    <dimen name="list_standard_padding">8dp</dimen>
+    <dimen name="comp_margin_sides">15dp</dimen>
+    <dimen name="standard_list_divider_padding">15dp</dimen>
+    <dimen name="standard_list_content_padding">5dp</dimen>
+
+    <!-- Page Indicator Dimens -->
+    <dimen name="default_indicator_line_width">30dp</dimen>
+    <dimen name="default_indicator_gap_width">15dp</dimen>
+    <dimen name="default_indicator_stroke_width">4dp</dimen>
+    <color name="default_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_indicator_unselected_color">#FFAAAAAA</color>
+    <bool name="default_indicator_centered">true</bool>
+
+    <dimen name="page_label_text_size">16sp</dimen>
+    <dimen name="page_value_text_size">15sp</dimen>
+
+    <dimen name="general_space">15dp</dimen>
+
+    <dimen name="circle_share_album_space">2dp</dimen>
+
+    <dimen name="dialpad_vertical_margin">0dp</dimen>
+    <dimen name="dialpad_digits_text_size">30sp</dimen>
+
+</resources>

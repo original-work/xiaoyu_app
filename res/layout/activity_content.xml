@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="${relativePackage}.${activityClass}"
+    >
+    
+    <RelativeLayout
+        android:id="@+id/log_wrapped"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/ainemo_white">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Share Content"
+            android:textColor="@color/nemo_black_70"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

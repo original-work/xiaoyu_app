@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/conv_main_container"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <com.ainemo.sdk.activity.call.view.svc.VideoGroupView
+            android:id="@+id/render_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    <android.view.OpenGLFragmentAnimationView
+            android:id="@+id/call_animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.activity.call.Toolbar
+            android:id="@+id/conversation_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.activity.call.RecordingBar
+            android:id="@+id/conversation_recordingbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.activity.call.VideoStatusBar
+            android:id="@+id/conversation_videostatus_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.activity.call.AddOther
+            android:id="@+id/conversation_add_other"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.activity.call.AddOtherConference
+            android:id="@+id/conversation_addother_conference"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+    <com.ainemo.sdk.base.widget.CallStatisticsView
+            android:id="@+id/conversation_statics"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"/>
+    <LinearLayout
+            android:id="@+id/other_observers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+    </LinearLayout>
+    <com.ainemo.sdk.base.widget.CallRosterView
+            android:id="@+id/conversation_roster"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible"/>
+
+    <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <include
+                android:id="@+id/operation_volume_brightness"
+                layout="@layout/volume_layout"
+                android:visibility="gone"/>
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/conversation_svc.xml -->

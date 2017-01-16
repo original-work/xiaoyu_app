@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="240dp"
+                android:layout_height="fill_parent"
+                android:background="@color/nemo_black_40">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+        <!-- User capture -->
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp">
+
+            <ImageView
+                    android:id="@+id/bg_turn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_addother_imcoming_turn"/>
+
+             <util.roundedimage.RoundedImageView
+                    android:id="@+id/user_capture"
+                    android:layout_width="94dip"
+                    android:layout_height="94dip"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_contact_user_capture_no_border"
+                    app:ainemo_border_color="@android:color/black"
+                    app:ainemo_border_width="0dip"
+                    app:is_oval="true"/>
+        </RelativeLayout>
+
+        <!-- Text -->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/conn_mt_dial_from_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/incoming_call"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+
+            <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/incoming_call"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+        <!-- middle place holder -->
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <!-- button -->
+
+        <ImageButton
+                android:id="@+id/conn_mt_endcall_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/addconference_hangup"/>
+
+        <ImageButton
+                android:id="@+id/conn_mt_answer_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/addconference_answer"/>
+    </LinearLayout>
+
+
+</RelativeLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/conversation_addother_conference.xml -->

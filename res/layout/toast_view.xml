@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toast_view_background"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="2sp"
+            android:textSize="15sp"/>
+
+</LinearLayout><!-- From: file:/Users/yinliang/Downloads/vulture/ui/MobileApp/ainemo_open_api/src/main/res/layout/toast_view.xml -->
