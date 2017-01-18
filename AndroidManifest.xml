@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="18"
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -39,7 +39,7 @@
         <!-- 注意： 此处需设置 APP_ID -->
         <meta-data
             android:name="AINEMO_APP_ID"
-            android:value="BMSSFXXMPAKT"/>
+            android:value="BSNNVVNZNVNNT"/>
 
         <!-- 实例Ativity，由开发者自己实现 -->
         <activity
@@ -76,7 +76,7 @@
             android:exported="false">
             <intent-filter>
                 <!-- 注意： 此处需设置 APP_ID -->
-                <action android:name="intent.BMSSFXXMPAKT.SERVICE_START"/>
+                <action android:name="intent.BSNNVVNZNVNNT.SERVICE_START"/>
             </intent-filter>
         </service>
 

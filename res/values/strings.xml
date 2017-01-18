@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">小鱼SDK示例</string>
+    <string name="app_name">小鱼SDK王欣鑫测试版</string>
     <string name="dialog_kicked_out_security_key_invalid">您的登录认证已失效，请重新登录</string>
     <string name="nemo_circle">家庭圈</string>
     <string name="add_other">邀请通话</string>
